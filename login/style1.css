@@ -1,0 +1,78 @@
+
+
+body{
+  background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+background-position: center;
+background-size: cover;
+font-family: Helvetica;
+}
+
+.login-box{
+  max-width:900px;
+  
+  float: none;
+  margin: 170px auto;
+ transition-duration: 500ms;
+}
+
+.login-left{
+  
+background-color: white;
+  max-width:800px;
+  max-height: 920px;
+  padding: 100px;
+  margin: 170px auto;
+ transition-duration: 500ms;
+border-radius: 50px;
+display: grid;
+ grid-template-columns: 1fr 1fr;
+  grid-gap: 5vw;
+  padding: 5vh 15px;
+
+}
+
+
+
+.login-left h3{
+  font-size: 40px;
+  
+  text-align: center;
+}
+
+.login-left input[type = "text"],.login-left input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.login-left  input[type = "text"]:focus,.login-left input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.login-left  button[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.login-left  button[type = "submit"]:hover{
+  background: #2ecc71;
+}
